@@ -175,7 +175,13 @@ header{
   display: inline-block;
   margin: 0 15px 100px 15px;
   list-style-type: none;
+  min-width: 207px;
 }
+
+#menu>.main-item{
+  min-width: 309px;
+}
+
 section#content>div{
   width: 650px;
   background: rgba(222,208,200, 0.9);
@@ -336,7 +342,7 @@ label{
     font-size: 36pt;
     background-image: url(images/menu_main_item.png);
     padding: 52px 20px 52px 20px;
-    margin-left: -24px;
+    margin-left: -104px;
   }
   header{
     margin-top: -75px;
