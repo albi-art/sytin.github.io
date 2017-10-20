@@ -276,7 +276,10 @@ var questions = {
       'test'
     ];
 
-    if(ignored_elements.indexOf(e.target.id) === -1){
+    if(e.target !== null 
+      && ignored_elements.indexOf(e.target.id) === -1 
+      && e.target.parentNode !== null 
+      && ignored_elements.indexOf(e.target.parentNode.id) === -1){
       showBackground();
     }
   }
