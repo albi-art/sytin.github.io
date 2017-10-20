@@ -228,6 +228,11 @@ label{
 
 #test>p{
   padding-top: 10px;
+  font-size: xx-large;
+}
+
+#test>label{
+  font-size: x-large;
 }
 
 #next-button{
@@ -307,6 +312,10 @@ label{
   margin: 0 15px 25px 15px;
   list-style-type: none;
   float: left;
+  }
+
+  #test>label, #test>p{
+    font-size: xx-large;
   }
 }
 
