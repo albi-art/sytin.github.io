@@ -114,7 +114,9 @@ var questions = {
       showTest();
       setTimeout(resetChangedAnswer,0);
     }
-    document.getElementById('content').innerHTML = document.getElementById(content).innerHTML;
+    contentElem = document.getElementById('content');
+    contentElem.innerHTML = document.getElementById(content).innerHTML;
+    contentElem.querySelector('div').style = "min-height:"+(window.innerHeight-300)+"px";
     test = document.getElementById('test');
     blurBackground();
   }

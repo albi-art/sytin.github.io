@@ -145,8 +145,8 @@ h1{
 }
 #svg-scores{
   position: absolute;
-  top: 200px;
-  left: 300px;
+  bottom: 130px;
+  left: 50%;
   width: 681px;
   height: 358px;
   z-index: 2;
@@ -170,11 +170,10 @@ header{
   display: inline-block;
   margin: 0 15px 100px 15px;
   list-style-type: none;
-  width: 309px;
 }
 section#content>div{
   width: 650px;
-  background: rgba(232, 183, 88, 0.9);
+  background: rgba(222,208,200, 0.9);
   border-radius: 3px;
   margin: auto;
   overflow: auto;
@@ -201,7 +200,7 @@ p,h1{
 #biography::-webkit-scrollbar-track, body::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: rgba(232, 183, 88, 0.9);
+  background-color: rgba(2222,208,200, 0.9);
 }
 
 #biography::-webkit-scrollbar, body::-webkit-scrollbar
@@ -300,4 +299,32 @@ label{
 }
 .radio:hover + label:after{
   opacity: 1;
+}
+
+@media all and (max-width: 835px){
+  #menu>li{
+  display: inline-block;
+  margin: 0 15px 25px 15px;
+  list-style-type: none;
+  float: left;
+  }
+}
+
+@media all and (max-width: 585px){
+  #menu>li{
+    display: inline-block;
+    margin: 21px 15px 53px 125px;
+    list-style-type: none;
+    float: left;
+  }
+  a.main-menu-item {
+    font-size: 36pt;
+    background-image: url(images/menu_main_item.png);
+    padding: 52px 20px 52px 20px;
+    margin-left: -24px;
+  }
+  header{
+    margin-top: -75px;
+    min-width: 480px;
+  }
 }
