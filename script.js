@@ -259,3 +259,24 @@ var questions = {
       res_elem.innerText = results[2];
     }
   }
+
+  document.onclick = function(e){
+    var ignored_elements = [
+      'outer-door-cirle',
+      'inner-door-cirle',
+      'outer-family-cirle',
+      'inner-family-cirle',
+      'outer-man-cirle',
+      'inner-man-cirle',
+      'outer-team-cirle',
+      'inner-team-cirle',
+      'outer-scores-cirle',
+      'inner-scores-cirle',
+      'biography',
+      'test'
+    ];
+
+    if(ignored_elements.indexOf(e.target.id) === -1){
+      showBackground();
+    }
+  }
