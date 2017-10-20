@@ -54,6 +54,11 @@ a.right-menu-item{
 
 h1{
   text-align: center;
+  font-size: xx-large;
+}
+
+.question-image{
+  width: 50%;
 }
 
 .svg-object>a>div{
@@ -228,7 +233,8 @@ label{
 
 #test>p{
   padding-top: 10px;
-  font-size: xx-large;
+  padding-bottom: 15px;
+  font-size: x-large;
 }
 
 #test>label{
