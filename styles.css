@@ -109,7 +109,7 @@ h1{
 #svg-family{
   position: absolute;
   bottom: 0px;
-  left: 5%;
+  left: 15%;
   background-image: url(images/layer1.png);
   background-size: cover;
   width: 350px;
@@ -131,7 +131,7 @@ h1{
   z-index: 5;
 }
 #svg-team>a>div{
-  left: 115px;
+  left: 145px;
   top: 60px;
 }
 #svg-team{
@@ -140,8 +140,8 @@ h1{
   right: 0px;
   background-image: url(images/layer4.png);
   background-size: cover;
-  width: 200px;
-  height: 277px;
+  width: 250px;
+  height: 327px;
   z-index: 3;
 }
 #svg-scores>a>div{
