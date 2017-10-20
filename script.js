@@ -155,7 +155,7 @@ var questions = {
 
   function showNextBtn() {
     var checked_answer = getCheckedAnswer();
-    var color = checkAnswer(checked_answer) ? 'green' : 'red';
+    var color = checkAnswer(checked_answer) ? '#21af21' : '#ea2b2b';
     if(current_answer_number === ANSWERS_COUNT){
       visibility = "hidden";
       showResult();

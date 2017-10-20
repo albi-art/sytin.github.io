@@ -3,22 +3,22 @@
 <head>
   <title>Лавка Сытина</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
   <div id="background">
-    <div id="svg-door" class="svg-object"><a href="#"><div></div></a></div>
-    <div id="svg-family" class="svg-object"><a href="#"><div></div></a></div>
-    <div id="svg-man" class="svg-object" onclick="showContent('biography-block')"><a href="#"><div></div></a></div>
-    <div id="svg-team" class="svg-object"><a href="#"><div></div></a></div>
-    <div id="svg-scores" class="svg-object" onclick="showContent('test-block')"><a href="#"><div></div></a></div>
-    <div id="background-bottom"></div>
+    <div id="svg-door" class="svg-object"><a href="#door"><div><div></div></div></a></div>
+    <div id="svg-family" class="svg-object"><a href="#family"><div><div></div></div></a></div>
+    <div id="svg-man" class="svg-object" onclick="showContent('biography-block')"><a href="#man"><div><div></div></div></a></div>
+    <div id="svg-team" class="svg-object"><a href="#team"><div><div></div></div></a></div>
+    <div id="svg-scores" class="svg-object" onclick="showContent('test-block')"><a href="#scores"><div><div></div></div></a></div>
   </div> 
   <header>
     <nav>
       <ul id="menu">
-      <li><a href="http://www.muzeysitina.ru/">Музей Квартира</a></li>
-      <li><a href="#" onclick="showBackground()">Лавка Сытина</a></li>
-      <li><a href="#">Архив</a></li>
+      <li><a href="http://www.muzeysitina.ru/" class="left-menu-item menu-item" target="_blank">Музей Квартира</a></li>
+      <li><a href="#" class="main-menu-item menu-item" onclick="showBackground()">Лавка Сытина</a></li>
+      <li><a href="#" class="right-menu-item menu-item" >Архив</a></li>
     </ul>
     </nav> 
   </header>
