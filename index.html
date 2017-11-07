@@ -7,48 +7,43 @@
 </head>
 <body>
   <div id="background">
-    <div id="svg-door" class="svg-object">
-      <a href="#door">
-        <div id="outer-door-cirle">
-          <div id="inner-door-cirle"></div>
-        </div>
+    <div id="svg-door" class="svg-object"></div>
+    <div id="svg-family" class="svg-object"></div>
+    <div id="svg-man" class="svg-object"></div>
+    <div id="svg-team" class="svg-object"></div>
+    <div id="svg-scores" class="svg-object"></div>
+    <div id="door-circle" class="circle">
+
+        <div><div></div></div>
+
+    </div>
+    <div id="family-circle" class="circle">
+
+        <div><div></div></div>
       </a>
-  </div>
-    <div id="svg-family" class="svg-object">
-      <a href="#family">
-        <div id="outer-family-cirle">
-          <div id="inner-family-cirle"></div>
-        </div>
+    </div>
+    <div id="man-circle" class="circle">
+
+        <div><div></div></div>
       </a>
-  </div>
-    <div id="svg-man" class="svg-object" onclick="showContent('biography-block')">
-      <a href="#man">
-        <div id="outer-man-cirle">
-          <div id="inner-man-cirle"></div>
-        </div>
+    </div>
+    <div id="team-circle" class="circle">
+
+        <div><div></div></div>
       </a>
-  </div>
-    <div id="svg-team" class="svg-object">
-      <a href="#team">
-        <div id="outer-team-cirle">
-          <div id="inner-team-cirle"></div>
-        </div>
+    </div>
+    <div id="scores-circle" class="circle">
+
+        <div><div></div></div>
       </a>
+    </div>
   </div>
-    <div id="svg-scores" class="svg-object" onclick="showContent('test-block')">
-      <a href="#scores">
-        <div id="outer-scores-cirle">
-          <div id="inner-scores-cirle"></div>
-        </div>
-      </a>
-  </div>
-  </div> 
   <header>
     <nav>
       <ul id="menu">
-      <li><a href="http://www.muzeysitina.ru/" class="left-menu-item menu-item" target="_blank">Музей-квартира</a></li>
-      <li class="main-item"><a href="#" class="main-menu-item menu-item" onclick="showBackground()">Лавка Сытина</a></li>
-      <li><a href="#" class="right-menu-item menu-item" >Архив</a></li>
+      <li class="side-menu-item menu-item"><a href="http://www.muzeysitina.ru/" target="_blank">Музей-квартира</a></li>
+      <li class="main-menu-item menu-item"><a href="#" onclick="showBackground()">Лавка Сытина</a></li>
+      <li class="side-menu-item menu-item"><a href="#" >Архив</a></li>
     </ul>
     </nav> 
   </header>
@@ -66,7 +61,8 @@
   </div>
   <div id="test-body" style="display: none">
     <p><span id="page-counter">1</span>/6</p>
-    <h1>«Борщ и Telegram»: спит ли в тебе медиатусовщик?</h1>
+    <h1>Борщ и Telegram</h1>
+    <p><i>спит ли в тебе медиатусовщик?</i></p>
     <img class="question-image"></img>
     <p id="question-text">Question?</p>
     <input id="radio1" class="radio" type="radio" name="alternate" onclick="showAnswer()"/>
