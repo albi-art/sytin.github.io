@@ -752,7 +752,7 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 185px;
+    bottom: 22%;
   }
   #man-circle{
     left: 67%;
@@ -780,7 +780,6 @@ label{
   }
   #family-circle{
     left: 34%;
-    bottom: 185px;
   }
   #man-circle{
     left: 65%;
@@ -808,11 +807,9 @@ label{
   }
   #family-circle{
     left: 34%;
-    bottom: 185px;
   }
   #man-circle{
     left: 65%;
-    bottom: 120px;
   }
   #team-circle{
     bottom: 200px;
@@ -836,11 +833,9 @@ label{
   }
   #family-circle{
     left: 29%;
-    bottom: 185px;
   }
   #man-circle{
     left: 60%;
-    bottom: 120px;
   }
   #team-circle{
     bottom: 200px;
@@ -864,11 +859,9 @@ label{
   }
   #family-circle{
     left: 28%;
-    bottom: 185px;
   }
   #man-circle{
     left: 60%;
-    bottom: 120px;
   }
   #team-circle{
     bottom: 200px;
@@ -975,7 +968,6 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 240px;
   }
   #man-circle{
     left: 67%;
@@ -1031,11 +1023,9 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 240px;
   }
   #man-circle{
     left: 64%;
-    bottom: 210px;
   }
   #team-circle{
     right: 0px;
@@ -1087,11 +1077,9 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 240px;
   }
   #man-circle{
     left: 64%;
-    bottom: 210px;
   }
   #team-circle{
     right: 0px;
@@ -1129,7 +1117,7 @@ label{
     height: 68%;
   }
   #svg-family{
-    eft: 19%;
+    left: 19%;
     width: 33%;
   }
   #svg-man{
@@ -1143,11 +1131,9 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 240px;
   }
   #man-circle{
     left: 64%;
-    bottom: 210px;
   }
   #team-circle{
     right: 0px;
