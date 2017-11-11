@@ -188,11 +188,11 @@ h1{
 }
 #family-circle{
   left: 35%;
-  bottom: 150px;
+  bottom: 20%;
 }
 #man-circle{
   left: 60%;
-  bottom: 150px;
+  bottom: 12%;
 }
 #team-circle{
   right: 0px;
@@ -453,14 +453,6 @@ label{
     left: 150px;
     top: 50%;
   }
-  #family-circle{
-    left: 35%;
-    bottom: 150px;
-  }
-  #man-circle{
-    left: 60%;
-    bottom: 150px;
-  }
   #team-circle{
     right: 0px;
     bottom: 160px;
@@ -528,14 +520,6 @@ label{
   #door-circle{
     left: 150px;
     top: 50%;
-  }
-  #family-circle{
-    left: 35%;
-    bottom: 150px;
-  }
-  #man-circle{
-    left: 60%;
-    bottom: 150px;
   }
   #team-circle{
     right: 0px;
@@ -605,14 +589,6 @@ label{
     left: 150px;
     top: 50%;
   }
-  #family-circle{
-    left: 35%;
-    bottom: 150px;
-  }
-  #man-circle{
-    left: 60%;
-    bottom: 150px;
-  }
   #team-circle{
     right: 0px;
     bottom: 160px;
@@ -681,14 +657,6 @@ label{
     left: 150px;
     top: 50%;
   }
-  #family-circle{
-    left: 35%;
-    bottom: 150px;
-  }
-  #man-circle{
-    left: 60%;
-    bottom: 150px;
-  }
   #team-circle{
     right: 0px;
     bottom: 160px;
@@ -756,14 +724,6 @@ label{
   #door-circle{
     left: 150px;
     top: 50%;
-  }
-  #family-circle{
-    left: 35%;
-    bottom: 150px;
-  }
-  #man-circle{
-    left: 60%;
-    bottom: 150px;
   }
   #team-circle{
     right: 0px;
@@ -959,11 +919,11 @@ label{
   }
   #family-circle{
     left: 37%;
-    bottom: 240px;
+    bottom: 20%;
   }
   #man-circle{
     left: 64%;
-    bottom: 210px;
+    bottom: 18%;
   }
   #team-circle{
     right: 0px;
