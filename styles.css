@@ -24,6 +24,7 @@ a{
   text-decoration-line: none;
   padding: 2px;
   opacity: 0.5;
+  text-decoration: none;
 }
 
 li.menu-item>a{
