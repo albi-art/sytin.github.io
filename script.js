@@ -137,13 +137,13 @@ function blurBackground(){
   document.getElementById('background').style = "filter: blur(2px)";
 }
 
-function showContent(content = "biography-block") {
-  if(content === "test-block"){
+function showContent(content_id) {
+  if(content_id === "test-block"){
     showTest();
     setTimeout(resetChangedAnswer,0);
   }
   contentElem = document.getElementById('content');
-  contentElem.innerHTML = document.getElementById(content).innerHTML;
+  contentElem.innerHTML = document.getElementById(content_id).innerHTML;
   contentElem.querySelector('div').style = "min-height:"+(window.innerHeight-300)+"px";
   test = document.getElementById('test');
   blurBackground();
